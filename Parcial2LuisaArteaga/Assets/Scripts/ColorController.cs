@@ -9,10 +9,10 @@ public class ColorController : MonoBehaviour
     [SerializeField] Slider slider;
 
     [SerializeField] Renderer huevoColor;
-    //ColorCreator colorGenerator = new ColorCreator();
+    ColorCreator colorGenerator = new ColorCreator();
 
     public Text textico;
-    //StateMachine stateMachine = new StateMachine();
+    StateMachine stateMachine = new StateMachine();
     //States estados = new EstadoListo();
 
     public void Awake()
